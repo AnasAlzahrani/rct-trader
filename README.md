@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-rct-trader.png" alt="RCT Trader — Scorbion mascot" width="180">
+</p>
+
 # 🧪 RCT Trader — Clinical Trials Intelligence Monitor
 
 **Open-source tool that monitors ClinicalTrials.gov in real-time, maps trial events to pharma/biotech stocks, and generates market intelligence signals.**
