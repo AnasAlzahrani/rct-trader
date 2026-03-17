@@ -1,0 +1,40 @@
+# RCT Trader - Core dependencies (lightweight)
+
+# HTTP & API clients
+httpx>=0.27.0
+aiohttp>=3.9.0
+
+# Data processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Market data
+yfinance>=0.2.36
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+
+# Machine Learning (lightweight)
+scikit-learn>=1.4.0
+
+# Statistical analysis
+statsmodels>=0.14.0
+scipy>=1.12.0
+
+# Scheduling
+apscheduler>=3.10.0
+
+# Alerts
+python-telegram-bot>=20.8
+aiosmtplib>=3.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+loguru>=0.7.0
+tenacity>=8.2.0
+cachetools>=5.3.0
+click>=8.1.0
+rich>=13.7.0

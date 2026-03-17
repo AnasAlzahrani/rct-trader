@@ -1,0 +1,79 @@
+# RCT Trader - Enhanced Clinical Trials Trading Bot
+# Core dependencies
+
+# HTTP & API clients
+httpx>=0.27.0
+aiohttp>=3.9.0
+requests>=2.31.0
+requests-cache>=1.2.0
+
+# Data processing
+pandas>=2.2.0
+numpy>=1.26.0
+polars>=0.20.0  # Fast DataFrame library for large datasets
+
+# Market data
+yfinance>=0.2.36
+finnhub-python>=2.4.0  # Alternative market data source
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+alembic>=1.13.0  # Database migrations
+redis>=5.0.0  # Caching and real-time data
+
+# Machine Learning
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.3.0
+optuna>=3.5.0  # Hyperparameter optimization
+
+# Statistical analysis
+statsmodels>=0.14.0
+scipy>=1.12.0
+
+# Web framework (for dashboard/API)
+fastapi>=0.109.0
+uvicorn>=0.27.0
+websockets>=12.0  # Real-time updates
+
+# Scheduling
+apscheduler>=3.10.0
+celery>=5.3.0  # Distributed task queue
+
+# Alerts
+python-telegram-bot>=20.8
+aiosmtplib>=3.0.0
+discord-webhook>=1.3.0
+
+# NLP for trial analysis
+transformers>=4.37.0
+sentence-transformers>=2.3.0
+spacy>=3.7.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+loguru>=0.7.0
+python-json-logger>=2.0.7
+tenacity>=8.2.0  # Retry logic
+cachetools>=5.3.0
+click>=8.1.0  # CLI
+rich>=13.7.0  # Beautiful CLI output
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+httpx>=0.27.0  # For FastAPI testing
+
+# Broker API
+alpaca-py>=0.15.0
+
+# Jupyter for analysis
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Monitoring
+prometheus-client>=0.19.0
