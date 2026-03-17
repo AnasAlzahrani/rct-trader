@@ -1,0 +1,61 @@
+2026-03-17 23:21:36.550 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 3 trades for ARKK
+2026-03-17 23:21:36.639 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 5 trades for ARKG
+2026-03-17 23:21:36.727 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 2 trades for ARKF
+2026-03-17 23:21:36.816 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 1 trades for ARKW
+2026-03-17 23:21:36.905 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 1 trades for ARKQ
+2026-03-17 23:21:36.985 | INFO     | src.data_sources.ark_tracker:get_trades:120 - Fetched 3 trades for ARKX
+2026-03-17 23:21:37.121 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 41 holdings for ARKK
+2026-03-17 23:21:37.292 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 32 holdings for ARKG
+2026-03-17 23:21:37.442 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 40 holdings for ARKF
+2026-03-17 23:21:37.578 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 38 holdings for ARKW
+2026-03-17 23:21:37.700 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 37 holdings for ARKQ
+2026-03-17 23:21:37.837 | INFO     | src.data_sources.ark_tracker:get_holdings:162 - Fetched 32 holdings for ARKX
+📊 ARK Invest Activity Summary
+========================================
+
+🟢 BUYING (5 tickers):
+  CRSP   |   44,923 shares | Conviction: 77% | Funds: ARKK, ARKG | Holdings: 15.3%
+  WGS    |    6,017 shares | Conviction: 68% | Funds: ARKK, ARKG | Holdings: 3.5%
+  PAYP   |  275,000 shares | Conviction: 56% | Funds: ARKF | Holdings: 0.6%
+  JOBY   |   27,759 shares | Conviction: 47% | Funds: ARKX, ARKQ | Holdings: 4.5%
+  CNTN   |   54,736 shares | Conviction: 38% | Funds: ARKF | Holdings: 0.2%
+
+🔴 SELLING (6 tickers):
+  IONS   |    7,220 shares | Conviction: 67% | Funds: ARKG
+  TXG    |   32,982 shares | Conviction: 66% | Funds: ARKK, ARKG
+  LAB    |    1,437 shares | Conviction: 55% | Funds: ARKG
+  NXDR   |      100 shares | Conviction: 34% | Funds: ARKW
+  PRNT   |      301 shares | Conviction: 31% | Funds: ARKX
+  DSY    |      100 shares | Conviction: 31% | Funds: ARKX
+
+--- ARKG Top 15 Holdings ---
+Ticker    Weight        Value Company
+-----------------------------------------------------------------
+TEM        9.65% $     99.9M  TEMPUS AI INC-CL A
+CRSP       9.34% $     96.7M  CRISPR THERAPEUTICS AG
+TWST       8.53% $     88.3M  TWIST BIOSCIENCE CORP
+BEAM       5.17% $     53.5M  BEAM THERAPEUTICS INC
+PSNL       4.97% $     51.5M  PERSONALIS INC
+TXG        4.84% $     50.1M  10X GENOMICS INC-CLASS A
+NTRA       4.40% $     45.6M  NATERA INC
+ILMN       4.28% $     44.3M  ILLUMINA INC
+GH         4.13% $     42.8M  GUARDANT HEALTH INC
+RXRX       3.89% $     40.2M  RECURSION PHARMACEUTICALS-A
+NTLA       3.71% $     38.4M  INTELLIA THERAPEUTICS INC
+CDNA       3.54% $     36.6M  CAREDX INC
+VCYT       3.26% $     33.8M  VERACYTE INC
+ABSI       2.71% $     28.1M  ABSCI CORP
+ADPT       2.58% $     26.7M  ADAPTIVE BIOTECHNOLOGIES
+
+--- Cross-Fund Analysis ---
+Tickers in 2+ ARK funds: 52
+  TSLA     in 4 funds | Combined weight: 32.6%
+  AMD      in 4 funds | Combined weight: 21.7%
+  PLTR     in 4 funds | Combined weight: 19.0%
+  AMZN     in 4 funds | Combined weight: 12.7%
+  NVDA     in 4 funds | Combined weight: 9.5%
+  TSM      in 4 funds | Combined weight: 8.2%
+  GOOG     in 4 funds | Combined weight: 10.8%
+  TER      in 3 funds | Combined weight: 17.4%
+  ACHR     in 3 funds | Combined weight: 9.3%
+  DE       in 3 funds | Combined weight: 11.6%
