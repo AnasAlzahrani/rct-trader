@@ -25,6 +25,7 @@ Most quants can't read trial results. Most clinicians don't watch markets. This 
 - 🏢 **Company Mapper** — 181 sponsor → ticker mappings (Pfizer, Lilly, Novartis, Gilead, Amgen, etc.)
 - 📊 **Event Classifier** — Categorizes events by significance (Phase 3 results > Phase 1 enrollment)
 - 🧠 **ML Signal Scoring** — Weighted model: catalyst quality (30%) + technical analysis (25%) + company strength (20%) + market conditions (10%) + timing (10%) + ML prediction (5%)
+- 🦈 **ARK Invest Tracker** — Real-time monitoring of all ARK ETF trades and holdings (ARKK, ARKG, ARKF, ARKW, ARKQ, ARKX) with conviction scoring and cross-referencing against trial signals
 
 ### Technical Analysis
 - 📈 **RSI(14)** with zone detection (oversold/overbought)
@@ -44,6 +45,32 @@ Most quants can't read trial results. Most clinicians don't watch markets. This 
 - Max daily loss: 3% (circuit breaker)
 - ATR-based stop losses
 - Confidence-based position sizing
+
+### ARK Invest Radar
+- 🏦 **Daily trade tracking** across all 6 ARK ETFs
+- 📈 **Multi-fund conviction scoring** — CRSP bought by both ARKK + ARKG = high conviction
+- 🎯 **Cross-reference engine** — ARK buying + positive trial signal = convergence (boosted confidence)
+- 📊 **Holdings weight tracking** — monitor accumulation vs reduction over time
+- 🧬 **ARKG focus** — Genomic Revolution ETF weighted highest for biotech relevance
+
+```bash
+# Quick ARK summary
+python -m src.data_sources.ark_tracker
+```
+
+Example output:
+```
+📊 ARK Invest Activity Summary
+========================================
+
+🟢 BUYING (5 tickers):
+  CRSP   |   44,923 shares | Conviction: 77% | Funds: ARKG, ARKK | Holdings: 15.3%
+  WGS    |    6,017 shares | Conviction: 68% | Funds: ARKG, ARKK | Holdings: 3.5%
+
+🔴 SELLING (6 tickers):
+  IONS   |    7,220 shares | Conviction: 67% | Funds: ARKG
+  TXG    |   32,982 shares | Conviction: 66% | Funds: ARKG, ARKK
+```
 
 ---
 
