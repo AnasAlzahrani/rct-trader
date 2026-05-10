@@ -1,4 +1,10 @@
-require('dotenv').config({ path: '../.env' });
+const path = require('path');
+const dotenv = require('dotenv');
+
+// Load the v2-specific env file regardless of the process working directory.
+// The previous '../.env' path was cwd-relative, so cron/manual runs from v2
+// skipped v2/.env and silently disabled Telegram alerts.
+dotenv.config({ path: path.join(__dirname, '.env') });
 
 const config = {
   alpaca: {
