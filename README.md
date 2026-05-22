@@ -8,6 +8,10 @@
 
 Built at the intersection of clinical research, AI drug discovery, and quantitative finance.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Animated RCT Trader terminal demo showing clinical trial signal scanning" width="720">
+</p>
+
 > ⚠️ **Full transparency:** I ran this for 3 weeks on $100K paper money. It **lost $1,180 (-1.18%)**. The data pipeline works — the trading strategy needs work. That's why it's open source. [See results →](#performance-results)
 
 ---
